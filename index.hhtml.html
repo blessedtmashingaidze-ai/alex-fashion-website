@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alex Fashion Designer | Custom Clothing</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fffaf7;
+            color: #292323;
+        }
+
+        header {
+            background: #211817;
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        header h1 {
+            font-size: 35px;
+            margin: 0 0 10px;
+        }
+
+        nav {
+            background: #c49a91;
+            padding: 16px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+        }
+
+        .hero p {
+            line-height: 1.7;
+        }
+
+        .button {
+            display: inline-block;
+            background: #8d5149;
+            color: white;
+            text-decoration: none;
+            padding: 14px 24px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        section {
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 25px auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 25px auto;
+        }
+
+        .service {
+            background: white;
+            padding: 25px 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px #e9ded9;
+        }
+
+        .service h3 {
+            color: #8d5149;
+        }
+
+        #contact {
+            background: #211817;
+            color: white;
+        }
+
+        #contact a {
+            color: #f0c7bd;
+        }
+
+        footer {
+            background: #120e0d;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Alex Fashion Designer</h1>
+        <p>Style • Creativity • Elegance</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <h2>Your Style, Our Passion</h2>
+            <p>
+                Welcome to Alex Fashion Designer.
+                We design beautiful outfits for weddings,
+                traditional celebrations and every special occasion.
+                Bring us your idea, and let's create something special.
+            </p>
+
+            <a class="button"
+               href="https://wa.me/27693336311?text=Hello%20Alex%20Fashion%20Designer%2C%20I%20would%20like%20to%20enquire%20about%20your%20services."
+               target="_blank" rel="noopener">
+                Contact Us on WhatsApp
+            </a>
+        </section>
+
+        <section id="gallery">
+            <h2>Our Fashion Inspiration</h2>
+            <p>Explore styles that inspire your next outfit.</p>
+
+            <div class="gallery">
+                <img
+                    src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=80"
+                    alt="Elegant fashion outfit">
+
+                <img
+                    src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80"
+                    alt="Contemporary fashion style">
+
+                <img
+                    src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80"
+                    alt="Fashion clothing collection">
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+
+            <div class="services">
+                <div class="service">
+                    <h3>Wedding Dresses</h3>
+                    <p>Special designs for your unforgettable day.</p>
+                </div>
+
+                <div class="service">
+                    <h3>Traditional Wear</h3>
+                    <p>Beautiful outfits inspired by African culture.</p>
+                </div>
+
+                <div class="service">
+                    <h3>Men's Suits</h3>
+                    <p>Stylish suits for weddings and other occasions.</p>
+                </div>
+
+                <div class="service">
+                    <h3>Alterations</h3>
+                    <p>Clothing adjustments, modifications and repairs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Let's Create Your Outfit</h2>
+            <p>Address: 517 Pretoria Road, Crystal Park</p>
+            <p>Phone: <a href="tel:0693336311">069 333 6311</a></p>
+            <p>Contact us to discuss your design and clothing needs.</p>
+
+            <a class="button"
+               href="https://wa.me/27693336311"
+               target="_blank" rel="noopener">
+                Message Alex
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Alex Fashion Designer. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
